@@ -1,0 +1,6 @@
+framework module Pods_YQTestLogining_Tests {
+  umbrella header "Pods-YQTestLogining_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

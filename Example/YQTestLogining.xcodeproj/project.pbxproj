@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		476D309424E442C300DDC2F8 /* YQTestLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 476D309324E442C300DDC2F8 /* YQTestLoginManager.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,9 @@
 
 /* Begin PBXFileReference section */
 		37C25B1DB82195D26A3F948E /* Pods-YQTestLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestLogining_Tests.release.xcconfig"; path = "Target Support Files/Pods-YQTestLogining_Tests/Pods-YQTestLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4862B9607DD7ADEBA9133ECD /* YQTestLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YQTestLogining.podspec; path = ../YQTestLogining.podspec; sourceTree = "<group>"; };
+		476D309224E442C300DDC2F8 /* YQTestLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTestLoginManager.h; sourceTree = "<group>"; };
+		476D309324E442C300DDC2F8 /* YQTestLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTestLoginManager.m; sourceTree = "<group>"; };
+		4862B9607DD7ADEBA9133ECD /* YQTestLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQTestLogining.podspec; path = ../YQTestLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YQTestLogining_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTestLogining_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B86DD8C1DB3978E9E3D9D21 /* Pods_YQTestLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQTestLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		921FCA4B008CE985EC52E1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A700CE05F0B97C32C5CC1D8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		921FCA4B008CE985EC52E1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A700CE05F0B97C32C5CC1D8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C178098573B0E4B963C4CB7B /* Pods-YQTestLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestLogining_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQTestLogining_Tests/Pods-YQTestLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4D7CA6F6940B79C8C4292B3 /* Pods-YQTestLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestLogining_Example.release.xcconfig"; path = "Target Support Files/Pods-YQTestLogining_Example/Pods-YQTestLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D68631166E371A4F8B03485B /* Pods-YQTestLogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestLogining_Example.debug.xcconfig"; path = "Target Support Files/Pods-YQTestLogining_Example/Pods-YQTestLogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* YQAppDelegate.h */,
 				6003F59D195388D20070C39A /* YQAppDelegate.m */,
+				476D309224E442C300DDC2F8 /* YQTestLoginManager.h */,
+				476D309324E442C300DDC2F8 /* YQTestLoginManager.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YQViewController.h */,
 				6003F5A6195388D20070C39A /* YQViewController.m */,
@@ -193,7 +198,6 @@
 				C178098573B0E4B963C4CB7B /* Pods-YQTestLogining_Tests.debug.xcconfig */,
 				37C25B1DB82195D26A3F948E /* Pods-YQTestLogining_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,10 +371,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YQTestLogining_Example/Pods-YQTestLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YQTestLogining/YQTestLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/YQTestNetworking/YQTestNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQTestLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQTestNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YQAppDelegate.m in Sources */,
+				476D309424E442C300DDC2F8 /* YQTestLoginManager.m in Sources */,
 				6003F5A7195388D20070C39A /* YQViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

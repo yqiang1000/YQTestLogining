@@ -4,6 +4,8 @@ platform :ios, '8.0'
 
 target 'YQTestLogining_Example' do
   pod 'YQTestLogining', :path => '../'
+  pod 'YQTestNetworking', :path => '../../YQTestNetworking'
+
 
   target 'YQTestLogining_Tests' do
     inherit! :search_paths
